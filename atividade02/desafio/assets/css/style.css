@@ -1,0 +1,90 @@
+body {
+  font-family: Arial;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 250px;
+  width: 70%;
+  background-color: rgb(190, 88, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 14px solid black;
+}
+
+.container .container {
+  height: 60%;
+  width: 80%;
+  background-color: #fff;
+  border-color: #000042;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 700;
+  color: blue;
+}
+
+.stripe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 60px 0;
+}
+
+.stripe {
+  height: 25px;
+}
+
+#divBlue {
+  background-color: blue;
+  width: 70%;
+}
+
+#divPurple {
+  background-color: purple;
+  width: 40%;
+}
+
+#divGreen {
+  background-color: green;
+  width: 60%;
+}
+
+#divYellow {
+  background-color: yellow;
+  width: 50%;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigger {
+  width: 35%;
+}
+
+#divRed {
+  background-color: red;
+}
+
+#divCyan {
+  width: 30%;
+  background-color: darkcyan;
+}
+
+#divLightGreen {
+  background-color: rgb(15, 255, 15);
+}
