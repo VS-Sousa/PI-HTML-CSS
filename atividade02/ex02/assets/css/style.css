@@ -1,0 +1,20 @@
+.container {
+  background-color: rgb(250, 141, 250);
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: #ff506d;
+  height: 100%;
+  width: 250px;
+  border: 20px dashed red;
+}
+
+#divC {
+  background-color: rgb(81, 212, 138);
+  height: 88%;
+  width: 30%;
+}
