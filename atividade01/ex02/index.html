@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 01</title>
+  <style>
+    body {
+      margin: 0 auto;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .container {
+      display: flex;
+      width: 60%;
+      height: 500px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .space {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      width: 40vw;
+      height: 30%;
+    }
+
+    .highlight {
+      background-color: rgb(36, 104, 160);
+    }
+
+    #pC {
+      text-align: center;
+      width: 30%;
+      padding: 20px;
+      font-size: 20px;
+      color: rgb(255, 181, 22);
+    }
+
+    .frame {
+      background-color: #b60b0b;
+    }
+  </style>
+</head>
+<body>
+  <div id="divA" class="container highlight">
+    <div id="divB" class="space">
+      <p id="pC" class="highlight">
+        Há um CSS entre nós...
+      </p>
+    </div>
+  </div>
+  <div id="divD" class="container frame">
+    <div id="divE" class="space"></div>
+  </div>
+</body>
+</html>

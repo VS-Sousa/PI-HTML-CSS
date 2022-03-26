@@ -1,0 +1,53 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(88, 141, 255);
+  padding: 10% 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: column;
+  font-family: monospace;
+}
+
+.beach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 217, 96);
+  width: 50vw;
+  height: 40vw;
+  border-radius: 35%;
+  border: 3px dashed rgb(119, 161, 252);
+}
+
+.bigger {
+  width: 70vw;
+  height: 60vw;
+  border-radius: 45%;
+}
+
+.vegetation {
+  background-color: #28ca28;
+  width: 60%;
+  height: 55%;
+  border: 8px dashed rgb(27, 153, 27);
+  border-radius: 35%;
+}
+
+#divD {
+  margin-top: 500px;
+}
+
+.paper {
+  background-color: rgb(97, 56, 22);
+  color: white;
+  width: 8rem;
+  height: 6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1rem;
+  border-radius: 15%;
+  border: 6px solid #80491c;
+}
